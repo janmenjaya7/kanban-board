@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+  font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+.mean-section {
+  display: flex;
+  justify-content: space-evenly;
+  background-image: linear-gradient(to right, #00dadece 0%, #fc00ff 100%);
+  /* height: 100vh; */
+}
+.section-1 .card {
+  background-color: hsla(0, 0%, 100%, 0.255);
+  border-radius: 10px;
+  margin-bottom: 5px;
+  backdrop-filter: blur(10px);
+}
+.card:hover {
+  background-color: hsla(0, 0%, 100%, 0.255);
+  border-radius: 10px;
+}
+.section-1 {
+  border: 1px solid #ccc;
+  width: 33%;
+  padding: 10px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+h1 {
+  text-align: center;
+  padding: 10px;
+}
+.section-2 {
+  border: 1px solid #ccc;
+  width: 33%;
+  padding: 10px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+.section-3 {
+  border: 1px solid #ccc;
+  width: 33%;
+  padding: 10px;
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
+}
+.input-field {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+li {
+  list-style: none;
+}
+.lest-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+    rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  padding: 10px;
+  background-color: rgba(110, 115, 121, 0.592);
+  backdrop-filter: blur(8px);
+  cursor: pointer;
+  margin-bottom: 5px;
+  text-wrap: wrap;
+  border-left: 10px solid rgba(255, 34, 0, 0.376);
+}
+.cards-section:hover {
+  background-color: hsla(0, 10%, 94%, 0.592);
+  border-radius: 10px;
+}
+.mean-section button {
+  background-color: rgba(36, 4, 246, 0.518);
+}
+.lest-item .btn-delete {
+  background-color: rgba(255, 0, 0, 0.582);
+  padding: 6px;
+}
+.lest-item .btn-edit {
+  background-color: rgba(255, 255, 0, 0.523);
+  padding: 6px;
+}
+.btn-edit-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  gap: 5px;
+}
+
+button {
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-radius: 10px;
+}
+input {
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  width: 100%;
+  padding: 10px;
+  background-color: #ccccccb4;
+}
+
+/* div {
+  border: 1px solid #ccc;
+  background-color: #cccccc7e;
+}
+p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.2rem;
+  line-height: 1.5;
+}
+
+a#myButton {
+  text-decoration: none;
+  color: red;
+}
+
+#open {
+  dipslay: inline-block;
+  padding: 30px;
+}
+
+#content {
+  display: none;
+}
+
+#show:target #content {
+  display: inline-block;
+  
+  margin: 0;
+} 
+
+#show:target #open {
+  display: none;
+}
+*/
